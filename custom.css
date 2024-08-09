@@ -1,0 +1,53 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    color:rgb(27, 162, 229)
+}
+#h{
+    color: black;
+}
+#h{
+    background-color:gray;
+}
+body{
+    background-color: greenyellow;
+    background-image: url("./image/images.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 100px 50px;  
+    
+    background: no-repeat fixed url("./image/images.jpg");
+    background-size: 100% 100%;
+}
+.demo{
+    color: purple;
+}
+.p{
+    background-color: gray;
+    border-style: double;
+    border-color: rgb(23, 17, 2);
+    border-width: 10px;
+    margin-top: 100px ;
+    margin-right: 50px;
+    margin-left: 70px;
+    margin-bottom: 150px;
+    /* margin: 100px 150px 70px 50px; */
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    
+    outline-style: solid;
+    outline-color: rgb(248, 12, 12);
+    outline-width: 5px;
+    outline-offset: 5px;
+
+    color: rgb(0, 0, 0);
+    text-decoration:underline ;
+    text-align:justify;
+    text-shadow: 2px 2px 1px whitesmoke;
+    font-weight: bolder;
+    font-variant: small-caps;
+
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family:sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+body{
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    gap: 24px;
+}
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.hero {
+    text-align: center;
+    color: white;
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+.bg-txt h1 {
+    font-size: 85px;
+    font-weight: bold;
+}
+.txt h4 {
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+.search-bar input {
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+}
+.search-bar input::placeholder {
+    padding: 15px;
+   
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-body h3 {
+    font-size: 20px;
+}
+.card{
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+section.home-section-1 {
+    margin-bottom: 36px;
+}
+section.home-section-3 {
+    margin-top: 62px;
+}
+.all p {
+    
+    color: rgb(224, 53, 70);
+}
+.image {
+    width: 100%;
+}
+.img-container {
+    display: flex;
+    gap: 20px;
+}
+.image img {
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+.img-content {
+    margin-top: -58px;
+    color: white;
+}
+.img-content h4 {
+    font-size: 22px;
+    text-align: center;
+}
+.txt p {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.collection {
+    display: ruby-text;
+}
+section.home-section-4 {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.title p {
+    font-size: 36px;
+}
+.city-name{
+    font-weight: 600;
+}
+
+.city-cc {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.city-container a {
+    color: black;
+    text-decoration: none;
+}
+.city-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 20px;
+}
+.city-cc i {
+    margin-left: 200px;
+}
+.city p {
+    font-size: 18px;
+    font-weight: 300;
+}
+.city h5 {
+    font-weight: 400;
+}
+.city-content {
+    width: 33.33%;
+}
+.btn:hover { 
+    color: #000 !important; 
+    background-color: #ffffff !important;
+    border-color: rgb(232, 232, 232) !important;
+} 
+.accordion-button {
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+}
+.area {
+    margin-bottom: 24px;
+}
+.accordian{
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+}
+section.home-section-5 {
+    margin-bottom: 40px;
+}
